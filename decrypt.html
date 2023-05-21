@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Decryption</title>   
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="headr"> 
+    <h1>Image Decryption</h1>
+    </div>
+    <div class="decrp"> 
+    <form action="decrypt.php" method="post" enctype="multipart/form-data">
+        <label for="encrypted_image">Select Encrypted Image:</label>
+        <input type="file" name="encrypted_image" id="encrypted_image" accept=".enc" required class="fil2">
+        <br>
+        <label for="encryption_key">Encryption Key:</label>
+        <input type="text" name="encryption_key" id="encryption_key" placeholder="Encryption Key" required>
+        <br>
+        <label for="private_key">Private Key:</label>
+        <textarea name="private_key" id="private_key" rows="10" cols="150" required></textarea>
+        <br>
+        <input type="submit" value="Decrypt Image" class="fil3">
+    </form>
+    </div>    
+</body>
+</html>

@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.headr{
+	
+	line-height: 15vh;
+	background: #b8bfc6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	font-size:32px;
+	font-weight: 500;
+}
+
+.decrp{
+	height: 85vh;
+	width: 100%;
+	font-size:32px;
+	font-weight: 500;
+	background: #b8bfc6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.encrp{
+	height: 85vh;
+	width: 100%;
+	background: #b8bfc6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+input{
+	font-size:32px;
+	font-weight: 500;
+	padding: 20px;
+	margin: 30px;
+	width: 350px;
+	background: #ebeef1;
+	cursor: pointer;
+	border: none;
+	border-radius: 50px;
+	color: #8e45dc;
+	box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16), -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+}
+input.fil{
+	font-size:18px;
+	font-weight: 500;
+	padding: 10px;
+	margin: 30px;
+	width: 300px;
+	background: #ebeef1;
+	cursor: pointer;
+	border: none;
+}
+input.fil2{
+	font-size:18px;
+	font-weight: 500;
+	padding: 10px;
+	margin: 30px;
+	width: 300px;
+	background: #ebeef1;
+	cursor: pointer;
+	color: rgb(231, 153, 6);
+	border: none;
+}
+input.fil3{
+	font-size:30px;
+	font-weight: 500;
+	padding: 20px;
+	margin: 30px;
+	width: 300px;
+	background: #ebeef1;
+	cursor: pointer;
+	color: rgb(231, 153, 6);
+	border: none;
+}
+
+
+.container{
+	height: 85vh;
+	width: 100%;
+	background: #b8bfc6;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+button{
+	font-size:32px;
+	font-weight: 500;
+	padding: 20px;
+	margin: 30px;
+	width: 350px;
+	background: #ebeef1;
+	cursor: pointer;
+	border: none;
+	border-radius: 50px;
+	color: #8e45dc;
+	box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16), -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+}
+button.dec{
+	color: rgb(231, 153, 6);
+}
